@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.first{
+    background-color: rgb(0, 14, 2);
+    height: 500px;
+    width: 500px;
+
+}
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+    .first{
+        background-color: blue;
+    }
+    
+}
+
+@media screen and (min-width : 600px) and (max-width : 1200px) {
+    .second{
+            font-size: 18px;
+    }
+    
+}
+
+.third >.s{
+           padding-right: 10px;
+}
+
+@media screen and (min-width : 600px) {
+    .third{
+            display: flex;
+    }
+    
+}
+
+
+@media screen and (min-width : 500px) and (max-width : 800px) {
+    h1{
+        color: green;
+    }
+}
+
+.fifth{
+    display: none;
+}
+
+@media screen and (min-width : 400px) {
+    .fifth{
+        display: block;
+    }
+}
+
+.s1{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 145, 0);
+}
+
+
+@media screen and (min-width : 1024px) {
+    .sixth{
+        padding: 20px;
+    } 
+}
+
+.seventh > header{
+    background-color: blueviolet;
+    padding: 50px;
+
+}
+
+@media screen and (max-width : 1200px) and (min-width : 600px) {
+    .seventh > header{
+        background-color: lightgray;
+    } 
+}
+
+
+.eight > p{
+    font-size: 25px;
+}
+
+
+@media screen and (max-width : 600px) {
+    .eight > p{
+        font-size: 16px;
+    } 
+}
+
+
+.ninth {
+    display: grid;
+    grid-template-columns: 1fr; 
+    /* gap: 16px;  */
+  }
+
+  .n1 {
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+
+@media screen and (min-width : 768px) and (max-width : 1200px) {
+    .ninth{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+  }
+  
+.tenth > img {
+          width: 400px;      
+  }
+
+@media screen and (max-width : 600px) {
+    .tenth > img {
+        width: 100%;
+    }
+    
+}
+
+
+.elevanth > a{
+    text-decoration: none;
+}
+
+@media screen and (min-width : 600px) and (max-width : 1200px) {
+      .elevanth > a{
+        color: blue;
+      }
+    
+}
+
+
+@media screen and (min-width : 500px) and (max-width : 800px) {
+    .twelveth{
+        font-size: 25px;
+    }
+      
+  }
+}
+
+.thirteen{
+    padding: 20px;
+    background-color: #5d1818;
+}
+
+@media screen and (min-width : 1024px) {
+    .thirteen {
+        border: 2px solid black;
+    }
+      
+}
+
+.fourteen{
+    background-color: #bbafaf;
+    width: 50%;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+
+@media screen and (min-width : 800px) and (max-width : 1200px) {
+    .fourteen {
+        width: 250px;
+    }
+      
+}
+
+
+.m1{
+    display: inline;
+}
+
+
+@media screen and (min-width : 600px) {
+    .fifteen{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 16px;
+    }
+  }
+  
